@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Vendor Registration</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+<link href="crac.css" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+</head>
+<body>
+    <header>
+        <div id="ex5">
+            <h5 id="hsz1">CRAC 2022<br>113TH ANNUAL CONFERENCE</h5>
+        <div id="ex5a">
+            <img id="img1" src="images/cracimage.jpg" alt="Crac Logo">
+        </div>
+        </div>
+    </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sponsors.html">Sponsors</a></li>
+                <li><a href="keynotespeaker.html">Keynote Speaker</a></li>
+                <li><a href="agenda.html">Agenda</a></li>
+                <li><a href="conferform.html">Attendee Registration</a></li>
+                <li><a href="vendorreg.html">Sponsor Registration</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="sponsorform.html">Sponsor form</a></li>
+            </ul>
+        </nav>
+   <main id="mn2">
+    <form method="post" action="vendorregaction.php">
+        <fieldset>
+           <legend>Fill Out Form</legend>
+           <br><label for="sponsorName">Name of Company</label><br><br>
+           <input type="text" name="sponsorName" id="sponsorName"><br><br>
+           <br><label for="sponsorDesc">Company Description</label><br><br>
+           <textarea name="sponsorDesc" id="sponsorDesc"></textarea><br><br>
+           <label for="sponsorImage">Company Logo (JPG, PNG, or GIF, max size 1MB)</label><br><br>
+           <input type="file" name="sponsorImage" id="sponsorImage" accept=".jpg, .gif, .png">
+           <input type="hidden" name="MAX_FILE_SIZE" value="1048576"><br><br>
+           <button type="submit">Submit to Register</button>
+        </fieldset>
+     </form>
+</main>
+<footer id="ftrsz">
+    El Dorado County CRAC Conference Janelle Horne&nbsp; &copy; 2023
+</footer>
+</body>
+</html>  

@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Conference Form</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+<link href="crac.css" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+</head>
+<body>
+    <header>
+        <div id="ex5">
+            <h5 id="hsz1">CRAC 2022<br>113TH ANNUAL CONFERENCE</h5>
+        <div id="ex5a">
+            <img id="img1" src="images/cracimage.jpg" alt="Crac Logo">
+        </div>
+        </div>
+    </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sponsors.html">Sponsors</a></li>
+                <li><a href="keynotespeaker.html">Keynote Speaker</a></li>
+                <li><a href="agenda.html">Agenda</a></li>
+                <li><a href="conferform.html">Attendee Registration</a></li>
+                <li><a href="vendorreg.html">Sponsor Registration</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="sponsorform.html">Sponsor form</a></li>
+            </ul>
+        </nav>
+<main id="mn2">
+    <form method="post" action="addattendeeaction.php" enctype="multipart/form-data">
+       <fieldset>
+          <legend>Fill Out Form</legend>
+          <br><label for="firstAttendeeName">Name of First Attendee</label><br><br>
+          <input type="text" name="firstAttendeeName" id="firstAttendeeName"><br><br>
+
+          <label for="secondAttendeeName">Name of Second Attendee</label><br><br>
+          <input type="text" name="secondAttendeeName" id="secondAttendeeName"><br><br>
+
+          <label for="county">County</label><br><br>
+          <input type="text" name="county" id="county"><br><br>
+
+          <label> First attendee dinner</label><br>
+          <label for="pDinnerType">Please Choose (Beef, Chicken, Vegetarian)</label><br><br>
+          <input type="text" name="pDinnerType" id="pDinnerType"><br><br>
+
+          <label> First attendee lunch</label><br>
+          <label for="aDinnerType">Please Choose (Beef, Chicken, Vegetarian)</label><br><br>
+          <input type="text" name="aDinnerType" id="aDinnerType"><br><br>
+
+          <label> Second attendee dinner</label><br>
+          <label for="p1DinnerType">Please Choose (Beef, Chicken, Vegetarian)</label><br><br>
+          <input type="text" name="p1DinnerType" id="p1DinnerType"><br><br>
+
+          <label> Second attendee lunch</label><br>
+          <label for="a1DinnerType">Please Choose (Beef, Chicken, Vegetarian)</label><br><br>
+          <input type="text" name="a1DinnerType" id="a1DinnerType"><br><br>
+
+          <label for="picture">Your Picture (JPG, PNG, or GIF, max size 1MB)</label><br><br>
+          <input type="file" name="picture" id="picture" accept=".jpg, .gif, .png">
+          <input type="hidden" name="MAX_FILE_SIZE" value="1048576"><br><br>
+
+          <button type="submit">Submit to Register</button>
+       </fieldset>
+    </form>
+</main>
+
+<footer id="ftrsz">
+    El Dorado County CRAC Conference Janelle Horne&nbsp; &copy; 2023
+</footer>
+</body>
+</html>

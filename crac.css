@@ -1,0 +1,731 @@
+@charset "utf-8";
+*{margin:0px; padding:0px;}
+
+.mn6 {background-image: url(images/sierranev7.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;}
+
+#art1 {width: 95%;
+       margin-left: -500px;
+       font-size: 75%;}
+
+#art2 {width: 100%;
+       margin-left: 500px;
+       font-size: 100%;}
+
+#art1 img {width: 100px;
+           height: 100px;}
+
+#blk {display: block;
+      padding: 20px;}
+
+#clr {color: #4415dd;
+      text-decoration-line: underline;}
+
+#div1 {font-size: 150%;
+       padding-left: 55px;
+       color: #000;
+       text-decoration: underline;}
+
+#fgr {display: inline;
+      padding-bottom: 15px;} 
+
+#fgr1 {display: block;
+      padding-bottom: 15px;} 
+
+#flxrw {display: block;
+        padding-bottom: 15px;}
+
+#ftr footer {width: 1504px;}
+
+#ftr1 {float: left;}
+
+#ftr2 {width: 1404px;}
+
+#frm {margin-left: 280px;
+      padding: 30px;
+      display: inline;}
+
+#frm2 {padding-left: 550px;}
+
+#ftrsz {width: auto;
+        padding: 20px;
+        color: #000;}
+
+#h51 {font-size: 70%;
+      padding: 10px;
+      font-weight: bold;}
+
+#hsz {font-size: 200%;
+      color: #0c0c0c;
+      text-align: center;
+      padding-top: 15px;}
+
+#hsz1 {font-size: 200%;
+       color: #f7f2f2;
+       text-align: center;
+       padding-top: 15px;}
+
+#hsz2 {font-size: 100%;
+       color: #111010;
+       text-align: center;
+       padding-top: 15px;
+       padding-bottom: 15px;
+       background-color: #eee5e5;
+       border-radius: 10px;}
+
+#hsz3 {font-size: 200%;
+      color: #0c0c0c;
+      text-align: center;
+      padding-top: 15px;}
+
+#hp {padding-top: 60px;
+     padding-bottom: 10px;
+     padding-right: 1200px;
+     font-family: cursive;
+     color: #128c9f;}
+
+#hp1 {margin: auto;}
+
+#img {padding-bottom: 20px;}
+
+#img1 {padding-top: 10px;
+       border-radius: 30%;
+       width: 80px;
+       height: 105px;
+       display: none;}
+
+#img2 {padding: 20px 15px;
+       font-weight: bold;}
+
+#imgsz {width: 75px;
+        height: 75px;}
+
+#imgsz1 {width: 35px;
+         height: 35px;}
+
+#mn {height: 2800px;
+     background-image: url(images/sierranev7.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;}
+
+#mn1 {height: 3800px;
+      background-image: url(images/sierranev7.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;}
+
+#mn2 {background-image: url(images/sierranev7.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;}
+
+#mn3 {background-image: url(images/sierranev7.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;}
+
+#mn4 {height: 3100px;}
+
+#mn5 {padding-bottom: 55px;}
+
+#new-release1 {padding-bottom: 20px;
+               padding-left: 10px;}
+
+#new-release1 img {width: 150px;
+                   height: 150px;}
+
+#new-release1 a {font-size: 150%;}
+
+#p1 {text-align: center;
+     width: 800px;
+     font-weight: bold;}
+  
+#p2 {font-size: 200%; 
+     font-weight: bold;
+     padding-right: 300px;
+     margin-left: 550px;}  
+
+#p3 {display: flex;
+     font-weight: bold;
+     font-family: Georgia, 'Times New Roman', Times, serif;}
+
+#p4 {display: flex;
+     justify-content: space-evenly;}
+
+#parallax-1 {background-image: url("images/sierranev1.JPG");
+             height: 200px; 
+             background-attachment: fixed;
+             background-position: center;
+             background-repeat: no-repeat;
+             background-size: cover;}
+
+#parallax-2 {background-image: url("images/sierranev2.JPG");
+             height: 200px;
+             background-attachment: fixed;
+             background-position: center;
+             background-repeat: no-repeat;
+             background-size: cover;}
+
+#parallax-3 {background-image: url("images/casamanzana.JPG");
+             height: 200px; 
+             background-attachment: fixed;
+             background-position: center;
+             background-repeat: no-repeat;
+             background-size: cover;}
+
+#parallax-4 {background-image: url("images/boegerwinery.jpg");
+             height: 200px; 
+             background-attachment: fixed;
+             background-position: center;
+             background-repeat: no-repeat;
+             background-size: cover;
+             display: flex;
+             justify-content: center;
+             align-items: center;}
+
+#parallax-4 p {width: 150px;
+               background: rgba(255,255,255,0.5);
+               font-size: 24px;
+               line-height: 1.5em;}
+
+#sec {display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      color: #128c9f;}
+        
+#sec2 {margin: auto;
+       display: flex;
+       flex-wrap: wrap;
+       font-weight: bold;
+       justify-content: center;
+       padding-bottom: 15px;}
+
+#sec6 {display: flex;
+       flex-wrap: wrap;
+       font-weight: bold;
+       justify-content: center;}
+
+#sec6 img {border-radius: 60px;}
+
+#sec7 {margin-top: -33px;
+       margin-bottom: -33px;
+       padding-bottom: 30px;}
+
+.sec3 {display: flex;
+       justify-content: space-between;
+       margin-left: 10px;
+       margin-right: 60px;
+       color: #128c9f;}
+
+#sec3 img {border: 3px solid #121114;       
+           border-radius: 25%;}
+
+#sec4 {list-style-type: none;
+       padding-left: 30px;
+       font-size: 200%;}
+
+#secflx {display: flex;
+         padding-left: 40px;
+         padding-right: 60px;
+         justify-content: space-between;}
+
+#sec5 footer {width: 1516px;}
+
+#sec img {border-radius: 200px;
+          border: 5px solid #000000;}
+
+article {width: 400px;
+         color: #000000;
+         font-weight:bold;
+         padding-left: 680px;}
+
+aside {width:1280px;}
+
+body {max-width: 1200px;
+      width: 80%; 
+      margin: auto;
+      background-color: #666666;}
+
+button {margin: 20px 20px;
+        padding: 10px 10px;}
+
+div a {color: #000000;
+       padding-bottom: 20px;}
+
+figure img {display: none;}
+
+figcaption {padding: 10px;
+            font-weight: bold;
+            font-family: cursive;
+            float: left;}
+
+form {display: flex;
+      padding: 10px; 
+      font-weight: bold;
+      border: #000 5px solid;}
+
+footer {text-align: center;
+        font-style: italic;
+        font-size: 150%;
+        font-weight: bold;
+        padding: 10px;
+        background-color: #c6bcee;
+        color: rgb(237, 231, 231);
+        width: 1504px;  
+        margin-bottom: 70px; 
+        margin-top: 0px;
+        border-radius: 0px 0px 20px 20px;}
+
+h1 {text-align: center;
+    color: #000000;
+    padding-top: 20px;
+    font-size: 130%;}
+
+h2 {text-align: center;
+    color: #000000;
+    padding-top: 20px;
+    font-size: 130%;}
+
+h3 {padding: 30px 30px;
+    font-size: 100%;
+    padding-bottom: 20px;}
+
+h4 {padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 80%;}
+
+h5 {font-size: 150%;
+    color: #08080a;}
+
+header {text-align: center;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #ffffff; 
+        background-image: url(images/casino.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 20px;
+        padding-bottom: 15px;
+        height: 200px; 
+        text-decoration: none;
+        border-radius: 20px 20px 0px 0px;
+        margin-top: 20px;}
+
+header h2 {text-align: center;
+           color:#ffffff;
+           font-weight: bold;
+           font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+           letter-spacing: 3px;
+           font-size: 500%;
+           padding-bottom: 20px;}
+
+header h5 {font-size: 90%;}
+
+main img {width: 200px;
+          height: 200px;
+          padding: 40px;}  
+
+main {background-image: url(images/sierranev7.jpg);
+      background-repeat: no-repeat;
+      background-size: cover} 
+       
+main  a {text-decoration: none;}
+
+nav {background-image: linear-gradient(to right, #eeeeee, #222222);
+     padding: 15px 7px;}
+
+nav ul li a {text-decoration: none;
+             color: rgb(236, 234, 243);
+             text-transform: uppercase;
+             font-weight: bold;
+             padding: 10px 15px;
+             border-radius: 20px;
+             background-color: rgb(8, 8, 155);
+             text-align: center;
+             font-family:'Times New Roman', Times, serif;
+             font-size: 50%;}
+
+nav ul {list-style-type: none;
+        padding: 10px;}
+
+nav ul li {padding: 10px;}
+
+nav ul li a:link {font-weight: bold;
+                  color: #0f0e0e;
+                  background-color: #f2f8f4;
+                  border-radius: 20px;}
+
+nav ul li a:visited {border-radius: 20px;
+                     font-weight: bold;
+                     color: #eee5e5;
+                     background-color: #0c0b0e;}
+
+nav ul li a:hover {color: #281280;
+                   background-color: #ebe1e8;
+                   border-radius: 20px;
+                   font-weight: bold;}
+
+label {padding: 10px;
+       font-size: 80%;}
+
+input {padding: 5px;
+       font-size: 40%;}
+
+table {padding: 15px;}
+
+table tr td {font-size: 60%;
+             padding-bottom: 10px;}
+
+#new-release {display: none;}
+
+#new-release1 img {border-radius: 115px;}
+
+@media only screen and (min-width: 700px) 
+{
+       main img {width: 300px;
+                 height: 300px;
+                 padding: 40px;}
+
+       nav ul {display: block;}
+
+       nav ul li a {font-size: 100%;}
+
+       nav ul li {padding: 15px;}
+
+       header {display: flex;
+               justify-content:space-around;}
+
+       #img1 {height: 100px;
+              width: 75px;
+              display: inline;}
+
+       h1 {font-size: 200%;}
+          
+       h2 {font-size: 200%;}
+
+       h3 {font-size: 100%;}
+
+       h4 {font-size: 100%;}
+
+       header h5 {font-size: 200%;}
+
+       #flxrw {display: flex;
+              justify-items: center;
+              justify-content: space-between;} 
+
+       figure img {border-radius: 50%;
+                   height: 100px;
+                   width: 100px;
+                   display: flex;
+                   justify-items: center;
+                   justify-content: space-between;}
+
+       figcaption {font-size: 150%;
+                   font-weight: bold;
+                   font-family: cursive;
+                   text-align: center;}
+
+       table tr td {font-size: 100%;
+                    padding-right: 10px;
+                    padding-bottom: 10px;}
+
+       label {padding: 10px;
+              font-size: 100%;}
+              
+       input {padding: 5px;
+              font-size: 100%;}
+
+       #imgsz {width: 300px;
+               height: 200px;}
+
+       #parallax-1 {background-image: url("images/sierranev1.JPG");
+                    height: 400px; 
+                    background-attachment: fixed;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;}
+        
+       #parallax-2 {background-image: url("images/sierranev2.JPG");
+                     height: 400px;
+                     background-attachment: fixed;
+                     background-position: center;
+                     background-repeat: no-repeat;
+                     background-size: cover;}
+        
+       #parallax-3 {background-image: url("images/casamanzana.JPG");
+                     height: 400px; 
+                     background-attachment: fixed;
+                     background-position: center;
+                     background-repeat: no-repeat;
+                     background-size: cover;}
+
+       #parallax-4 {background-image: url("images/boegerwinery.JPG");
+                    height: 400px; 
+                    background-attachment: fixed;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;}
+
+       #h51 {font-size: 150%;
+             padding: 20px;
+             font-weight: bold;}
+             
+       #hsz1 {font-size: 200%;}
+
+       label {padding: 10px;
+              font-size: 130%;}
+
+       #img2 {padding: 20px 15px;
+              font-weight: bold;
+              font-size: 150%;}
+
+       #hsz2 {font-size: 250%;
+              color: #111010;
+              text-align: center;
+              padding-top: 15px;
+              background-color: #eee5e5;
+              border-radius: 10px;}
+
+       #new-release {display: none;}
+
+
+       #imgsz1 {height: 55px;
+                width: 55px;}
+          
+       #hsz3 {font-size: 200%;
+              color: #0c0c0c;}
+}
+
+@media only screen and (min-width: 1004px) 
+{
+       main img {width: 300px;
+                 height: 300px;
+                 padding: 40px;}
+
+       nav ul {display: flex;
+               flex-direction: row;
+               justify-content: space-between ;}
+
+       nav ul li {padding: 4px;}
+
+       nav ul li a {font-size: 60%;
+                    padding: 15px 7px;}
+          
+       header {padding-bottom: 20px;}
+
+       #img1 {height: 150px;
+              width: 125px;}
+
+       #imgsz1 {width: 65px;
+                height: 65px;}
+
+       h1 {font-size: 300%;}
+       
+       h2 {font-size: 300%;}
+
+       h3 {font-size: 150%;}
+
+       h4 {font-size: 100%;}
+
+       header h5 {font-size: 260%;}
+
+       figure img {border-radius: 50%;
+                   height: 200px;
+                   width: 200px;
+                   display: flex;
+                   justify-items: center;
+                   justify-content: space-between;}
+
+       figcaption {font-size: 150%;
+                   font-weight: bold;
+                   font-family: cursive;}
+
+       table tr td {font-size: 120%;
+                    padding-right: 30px;
+                    padding-bottom: 10px;
+                    width: 300px;}
+
+       label {padding: 10px;
+              font-size: 100%;}
+                     
+       input {padding: 5px;
+              font-size: 100%;}
+
+       #imgsz {width: 200px;
+               height: 200px;
+               display: flex;}
+
+       #fgr {display: flex;
+             flex-direction: row;
+             justify-content: space-between;}
+
+       #fgr1 {margin-left: -850px;
+              padding: 100px 250px;
+              display: flex;}
+
+       #fgr figcaption {font-size: 95%;}
+
+       #parallax-1 {background-image: url("images/sierranev1.JPG");
+                    height: 700px; 
+                    background-attachment: fixed;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;}
+  
+       #parallax-2 {background-image: url("images/sierranev2.JPG");
+                    height: 700px;
+                    background-attachment: fixed;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;}
+  
+       #parallax-3 {background-image: url("images/casamanzana.JPG");
+                    height: 700px; 
+                    background-attachment: fixed;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;}
+
+       #parallax-4 {background-image: url("images/boegerwinery.JPG");
+                    height: 700px; 
+                    background-attachment: fixed;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;}
+
+       #hsz1 {font-size: 280%;
+              padding-right: 20px;}
+
+       label {padding: 10px;
+              font-size: 150%;}
+
+       div {margin: 0px auto;}
+
+       #ex5 {display: flex;
+             justify-items: left; 
+             padding-top: 20px;
+             perspective: 1000px;
+             perspective-origin: 50% 50%;}
+              
+       #ex5 div {width: 145px;
+                 height: 115px;}
+       
+       #ex5 div:hover {transform: rotateY(1080deg);
+                       transition: all 1s linear;}
+
+       #ex5 p:hover{display: none;}
+
+       #hsz2 {font-size: 250%;
+              color: #111010;
+              text-align: center;
+              padding-top: 15px;
+              background-color: #eee5e5;
+              border-radius: 10px;}
+
+       #pd1 {padding-right: 400px;}
+
+       #new-release {padding-bottom: 130px;
+                     display: block;}
+
+       #new-release h2 { color:#0d0d0d; }
+
+       #new-release img {width: 200px;
+                         height: 200px;}
+
+       .flip-container {perspective: 1000px;}
+	
+       .flip-container.hover .back {transform: rotateY(0deg);}
+              
+       .flip-container.hover .front {transform: rotateY(180deg);}
+              
+       .flipper {transition: 0.6s;
+                 transform-style: preserve-3d;
+                 position: relative;
+                 height: 0;
+                 padding-top: 60px;}
+              
+       .flipper1 {transition: 0.6s;
+                  transform-style: preserve-3d;
+                  position: relative;
+                  top: 0px;
+                  left: -300px;
+                  height: 0;
+                  padding-top: 40px;}
+
+       .flipper2 {transition: 0.6s;
+                  transform-style: preserve-3d;
+                  position: relative;
+                  top: 0px;
+                  left: -300px;
+                  height: 0;
+                  padding-top: 40px;}
+
+       .front, .back {-webkit-backface-visibility: hidden;
+                      backface-visibility: hidden;
+                      transition: 0.6s;
+                      transform-style: preserve-3d;
+                      position: absolute;
+                      top: 0;
+                      left: 0;}
+              
+       .front {transform: rotateY(0deg); z-index: 2; }
+              
+       .back {transform: rotateY(-180deg);
+              background:#faf8f5;
+              padding: 10px;
+              height: 250px;
+              width: 300px;
+              text-align: center;
+              border-radius: 25px;
+              border: #000 solid 3px;}
+       
+       .title {text-transform:uppercase;
+               font-size: 20px;
+               padding-bottom:15px;}
+       
+       .name {text-transform:uppercase;
+              font-size: 20px;
+              padding-bottom: 15px;
+              font-weight: 700;
+              color: #0f1111;}
+
+       #new-release1 {display: none;}
+
+       .back a {color: rgb(15, 15, 236);
+                text-decoration: none;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 150%;
+                background-color: #796bf1;
+                padding: 5px 15px;
+                border-radius: 5px;}
+
+       .front img {border-radius: 75px;}
+
+}
+
+@media only screen and (min-width: 1400px) 
+{
+       .flipper2 {transition: 0.6s;
+                  transform-style: preserve-3d;
+                  position: relative;
+                  top: 0px;
+                  left: 0px;
+                  height: 0;
+                  padding-top: 40px;}
+
+       .flipper1 {transition: 0.6s;
+                  transform-style: preserve-3d;
+                  position: relative;
+                  top: 0px;
+                  left: 0px;
+                  height: 0;
+                  padding-top: 40px;}
+
+       table tr td {padding-right: 40px;
+                    padding-bottom: 15px;
+                    font-size: 130%;}
+
+       td {width: 800px;}
+}
